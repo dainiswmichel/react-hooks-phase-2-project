@@ -23,12 +23,15 @@ export default function NavigationBar() {
           <NavLink to={'/newpost'} className="py-2 px-4 hover:bg-gray-700 rounded transition duration-300">
             Add New Drink
           </NavLink>
+          <NavLink to={'/addnewdrink'} className="py-2 px-4 hover:bg-gray-700 rounded transition duration-300">
+            DWM Add ND
+          </NavLink>
           <NavLink to={'/drinktracker'} className="py-2 px-4 hover:bg-gray-700 rounded transition duration-300">
             Hydration Tracker
           </NavLink>
-		      <NavLink to={'/myfavorites'} className="py-2 px-4 hover:bg-gray-700 rounded transition duration-300">
+              <NavLink to={'/myfavorites'} className="py-2 px-4 hover:bg-gray-700 rounded transition duration-300">
             My Favorites
-		      </NavLink>
+              </NavLink>
         </div>
       </div>
     </nav>
