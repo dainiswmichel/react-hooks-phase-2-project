@@ -1,4 +1,4 @@
-
+/* index.css */
 
 @tailwind base;
 @tailwind components;
@@ -172,6 +172,52 @@ input[type="number"] {
 button:hover {
   background-color: #45a049;
 }
+
+/* --------------------------------------------------submit form ---------------------------------------------------------- */
+/* style.css */
+#drinksInputForm {
+ width: 50%;
+ margin: 0 auto;
+ padding: 20px;
+ border: 1px solid #ccc;
+ border-radius: 5px;
+ background-color: #f9f9f9;
+}
+
+#drinksInputForm label {
+ display: block;
+ margin-bottom: 5px;
+}
+
+#drinksInputForm input[type="text"],
+#drinksInputForm input[type="url"],
+#drinksInputForm input[type="number"],
+#drinksInputForm textarea {
+ width: 100%;
+ padding: 10px;
+ margin-bottom: 20px;
+ border: 1px solid #ccc;
+ border-radius: 5px;
+}
+
+#drinksInputForm button {
+ padding: 10px 20px;
+ background-color: #007bff;
+ color: white;
+ border: none;
+ border-radius: 5px;
+ cursor: pointer;
+}
+
+#drinksInputForm button:hover {
+ background-color: #0056b3;
+}
+
+
+/* ---------------------------------------------------------------------------------------------------------------------- */
+
+
+
 
 
 
